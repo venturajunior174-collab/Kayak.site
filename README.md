@@ -1,2 +1,2 @@
 # Kayak.site
-Bastantemente leg
+Bastantemente legal 
