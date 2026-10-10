@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAYAK | Artista</title>
+
+    <style>
+        body {
+            background: #101010;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px 15px;
+        }
+
+        .cartao {
+            max-width: 350px;
+            margin: auto;
+            padding: 30px 20px;
+            background: #202020;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            letter-spacing: 5px;
+        }
+
+        p {
+            color: #cccccc;
+        }
+
+        button {
+            background: #ff3030;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+
+.links {
+    margin-top: 25px;
+}
+
+.links a {
+    display: inline-block;
+    color: white;
+    font-family:Georgina;
+    text-decoration: none;
+    background: #383838;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.links a:hover {
+    background: #ff3030;
+}
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cartao">
+        <h1>KAYAK</h1>
+        <p>ARTISTA TRAP</p>
+        <p>A minha história está apenas a começar.</p>
+
+        <button onclick="apresentar()">
+            Conhecer Kayak
+        </button>
+       
+<div class="links">
+    <a href="https://www.youtube.com/">YouTube</a>
+    <a href="https://www.instagram.com/">Instagram</a>
+    <a href="https://www.tiktok.com/">TikTok</a>
+</div>
+       
+        <p id="mensagem"></p>
+    </div>
+
+    <script>
+        function apresentar() {
+            document.getElementById("mensagem").innerText =
+                "Bem-vindo ao universo KAYAK! 🔥";
+        }
+    </script>
+</body>
+</html>
